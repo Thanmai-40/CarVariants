@@ -6,7 +6,8 @@ from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 
-
+# url1 is Volkswagan Virtus
+# URL2 IS Volkswagan Polo
 url1 = f"https://www.autocarindia.com/car-news/volkswagen-virtus-price-variants-explained-424751"
 url2 = f"https://www.autocarindia.com/car-news/2020-volkswagen-polo-10-mpi-price-variants-explained-416674"
 request = requests.get(url1)
